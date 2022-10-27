@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App  {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chipscrollcontainer{
+  font-family: sans-serif;
+  text-align: center;
+  width: 80% !important;
+  height: 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.chips{
+  width: auto !important;
+}
+.stack_chips{
+
+  border-radius: 10px !important;
+  
+}
+
+
+
+ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  max-width: 100%;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+ 
+li{
+  background-color: #f2f2f2;
+    color: black;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 0 4px;
+     white-space: nowrap;
+    border-radius: 15px;
+    
+  }
+
+
+
+button{
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.5);
+  background-color: white;
+  padding: 1px;
+  margin-left: 8px;
+}
+.hover:hover{
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.newThisWeekImages:hover{
+  cursor: pointer;
+}
+
+
+
+
+.responsivenav{
+  display: none;
+}
+
+
+
+@media screen and (max-width: 800px){
+  .responsivenav{
+    display: block;
+  }
+  .Footer{
+    display: none;
+  }
+  .NavMain{
+    display: none;
+  }
+  .middleResponsive{
+    width: 100%;
+    height: 100%;
+    margin: 0 ;
+    padding: 0 ;
+  }
+  .imageContainer{
+    background-color: #ebebeb;
+    width: 100% !important;
+    overflow-x: hidden;
+    height: 40vh;
+    padding: 0 !important;
+    margin: 0 !important;
+    padding-left: 0 !important;
+    padding-left: 0 !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .imagesubcontainer{
+    padding-Left: 1rem !important;
+  }
+  .imageListItem{
+    width:80vw;
+    height: 45vh !important;
+    /* margin-top: 2rem; */
+    /* margin: 0 !important; */
+    /* padding-left: 0 !important; */
+ }
+  .newThisWeekImages{
+    width:100% !important;
+  }
+  .imagecontainersubtext {
+    /* color: red !important; */
+    font-size:1.4rem !important ;
+    font-weight: 250 !important;
+    margin-top: 20px !important;
+  }
+  .imageTextContainer{
+    background-color: #ebebeb;
+    width: 100% !important;
+    height: 80%;
+    margin: 0 !important;
+    padding: 0;
+  }
+  .chipContainer{
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: auto I !important;
+    /* background-color: green; */
+    /* height: 50% !important; */
+    display:flex;
+    flex-direction: row;
+  }
+  .App{
+    display: flex;
+    flex-direction: column;
+  }
+  .chips{
+    margin-right:5px ;
+    padding: 0 !important;
+
+  }
+  .chipScroll{
+    display: flex;
+    flex-direction: row;
+  }
+  .chipscrollcontainer{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    width: 100% !important;
+
+  }
+  .chips {
+    /* width: 100% !important;
+    display: flex !important;
+    justify-content: space-around !important; */
+    /* align-items: center; */
+    /* border: 5px solid red; */
+    /* padding: 0!important;
+    margin: 0!important;
+    background-color: red; */
+    display: none !important;
+  }
+  hr{
+    display: none;
+  }
+  .topSeller{
+    width: 100% !important;
+    margin-left: 0 !important;
+    padding: 0 !important;
+  }
+}
